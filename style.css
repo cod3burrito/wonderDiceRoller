@@ -1,3 +1,32 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B9FAF8;
 }
+
+body {
+    padding: 10%;
+    background-color: #0B4F6C;
+}
+
+button {
+    border: #55DBCB 5px solid;
+    color: #320E3B;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #55DBCB;
+    border: #55DBCB 5px dashed;
+    color: #B298DC;
+}
+
+.dice {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 10px;
+    padding: 3%;
+}
+
+
+
+
